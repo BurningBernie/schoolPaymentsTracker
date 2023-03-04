@@ -13,7 +13,7 @@ Steps for use:
 
 3. After the school's Treasury Clerk finished the account reconciliation he/she changes the value FALSE to the value TRUE on the "Recieved" field on the DB for each payment recieved, sorting by ID.
 
-4. Customers can use the ID for checking on the web page if the payment was already recieved and conciliated on books.
+4. Customers can use the ID provided con step 1. for checking on the web page if the payment was already recieved and conciliated on books.
 
 
 Extra step:
