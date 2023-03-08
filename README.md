@@ -19,3 +19,5 @@ Steps for use:
 Extra step:
 
 If all previous requirements reach complition, the next step will be, on the same web page but on another route, with only entering the Customer's ID, being able to trigger an email (to an email address provided previously) with the account balance for that Customer ID.
+
+Bernardo Ruiz Esquide
