@@ -1,0 +1,84 @@
+* {
+    background-color: lightgrey;
+    /*color de fondo de pantalla*/
+
+}
+
+body {
+    margin: 0% 5%;
+    /*agrego un porco de margen para evitar que esté todo 
+    el contenido pegado al borde e la pantalla*/
+}
+
+header,
+.ff,
+.companyName {
+    display: flex;
+    /*cambia la orientacion de la disposicion de los objetos*/
+    min-height: 7%;
+    /*altura minima*/
+    justify-content: space-between;
+    /*alinea una cosa en una esquina y la otra en la otra*/
+    align-items: center;
+    /*alinea los objetos en el centro del header, 
+    evitando que esten, por defecto, contra el marco superior*/
+    padding: 0.4%;
+    /*el relleno para darle un poco de separacion entre los elementos*/
+    background-color: coral;
+}
+
+a {
+    text-decoration: none;
+    /*le quita el subrayado a los vinculos*/
+    color: black;
+}
+
+nav,
+.nav-link {
+    background-color: coral;
+
+}
+
+nav a {
+    font-weight: 600;
+    /*negrita*/
+    padding-right: 10px;
+    /*espacio entre tags a*/
+}
+
+nav a:hover {
+    color: white
+}
+
+.formBox {
+    margin: 5% 8%;
+}
+
+.third{
+    display: block;
+    /*hace que cada campo tenga su propio espacio y haya un enter al final de cada uno*/
+    margin-left: 2%;
+    /*lo separo un poco para diferenciarlo del form anterior*/
+    padding: 1%;
+    /*separo los campos de este form en particular para que no estén tan pegados*/
+}
+
+.submitB {
+    margin-left: 45%;
+}
+
+#img {
+    height: 65px;
+    margin-right: 15%;
+}
+
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px
+    }
+}
