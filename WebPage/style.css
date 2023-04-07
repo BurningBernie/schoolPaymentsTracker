@@ -50,12 +50,22 @@ nav a:hover {
     color: white
 }
 
+footer {
+    float: right;
+    /*esto es para que esté a la izq de la pantalla*/
+    margin-right: 7px;
+    /*7px de distancai desde el borde de la pantalla*/
+}
+
+
+
+
 .formBox {
     margin: 5% 8%;
 }
 
-.third{
-    display: block;
+.third {
+    /* display: block;*/
     /*hace que cada campo tenga su propio espacio y haya un enter al final de cada uno*/
     margin-left: 2%;
     /*lo separo un poco para diferenciarlo del form anterior*/
@@ -67,9 +77,24 @@ nav a:hover {
     margin-left: 45%;
 }
 
-.inputMargin{
-    margin-left: 2%;
+
+.container {
+    display: flex;
 }
+
+.label-column {
+    width: 200px;
+    /* ancho fijo para la columna de los labels */
+}
+
+.input-column {
+    flex: 1;
+    /* ancho flexible para la columna de los inputs */
+}
+
+
+
+
 
 #img {
     height: 65px;
